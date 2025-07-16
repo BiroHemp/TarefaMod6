@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marcus Cardoso">
+    <meta name="description" content="Jogo de adivinhação simples em JavaScript">
+    <meta name="keywords" content="jogo, adivinhação, JavaScript, HTML, CSS">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Jogo de Adivinhação</h1>
+        <p id="title">Adivinhe o número secreto entre 1 e 100!</p>
+        <div id="jogo">
+            <input type="number" id="palpite" placeholder="Digite seu palpite">
+            <button id="chute" onclick="chuteSorte()">Chutar</button>
+            <p id="tentativas"></p>
+            <p id="dicasResultado"></p>
+            <button id="novoJogo" style="display:none;">Novo Jogo</button>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
